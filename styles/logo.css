@@ -2,31 +2,81 @@
     margin: opx;
     padding: opx;
 }
+header{
+    /* border: 1px solid tomato; */
+    background-image: url(../Assets/Hero-bg.png);
+    padding: 0px 0px 200px 0px;
+}
 nav{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     display: flex;
     justify-content: space-between;
     max-width: 1140px;
     height: 154px;
     margin: 0px auto;
     align-items: center;
+    
 }
 .session-1 {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     text-align: center;
     max-width: 905px;
     height: 237px;
     margin: 157px auto 37px auto;
 }
+.session-1 h1{
+    width: 905px;
+    height: 152px;
+    font-weight: bold;
+    font-size: 32px;
+}
+.btn-2{
+    width: 174px;
+    height: 54px;
+    padding: 12px 32px;
+    font-weight: bold;
+    color: white;
+    background-color: #4E47FF;
+    border-radius: 10px;
+    margin-bottom: 200px;
+}
+.btn-3{
+    width: 229px;
+    height: 54px;
+    padding: 12px 32px;
+    font-weight: bold;
+    color: white;
+    background-color: #4E47FF;
+    border-radius: 10px;
+    margin-bottom: 200px;
+}
+
 .session-2 {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     display: flex;
     max-width: 1140px;
     height: 328px;
     margin: 0px auto;
     justify-content: space-between;
+    margin: 40px auto 35px auto;
 }
-
+nav h3{
+    width: 105px;
+    height: 54px;
+    font-weight: Black;
+    font-size: 36px;
+    color: #4E47FF;
+}
+nav button{
+  width: 132px;
+  height: 54px; 
+  padding: 12px 32px;
+  font-weight: bold; 
+  color: white;
+  background-color: #4E47FF;
+  border-radius: 10px;
+  
+}
 .session-2 h1 {
     height: 49px;
     font-weight: bold;
@@ -49,4 +99,38 @@ img {
     width: 403px;
     height: 328px;
     border-radius: 50px;
+}
+.users {
+
+    width: 1140px;
+    height: 306px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 200px auto;
+
+    background-color: #c9c9ff;
+    border-radius: 30px;
+
+}
+
+.users .rating {
+    width: 800px;
+    height: 100px;
+    justify-content: space-around;
+    display: flex;
+
+}
+
+.rating .ret h1 {
+    font-size: 60px;
+    font-weight: bold;
+    color: blue;
+}
+
+.rating .ret p {
+    font-size: 15px;
+    color: black;
+    margin-top: -30px;
+    text-align: center;
 }
