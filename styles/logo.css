@@ -1,104 +1,75 @@
-*{
-    margin: opx;
-    padding: opx;
-}
-header{
-    /* border: 1px solid tomato; */
+header {
     background-image: url(../Assets/Hero-bg.png);
-    padding: 0px 0px 200px 0px;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 155px;
+    display: flex;
+    flex-direction: column;
+    gap: 158px;
 }
-nav{
-    /* border: 1px solid blue; */
+
+header nav {
+    width: 1140px;
+    height: 151px;
     display: flex;
     justify-content: space-between;
-    max-width: 1140px;
-    height: 154px;
-    margin: 0px auto;
+    margin: 0 auto;
     align-items: center;
-    
-}
-.session-1 {
-    /* border: 1px solid blue; */
-    text-align: center;
-    max-width: 905px;
-    height: 237px;
-    margin: 157px auto 37px auto;
-}
-.session-1 h1{
-    width: 905px;
-    height: 152px;
-    font-weight: bold;
-    font-size: 32px;
-}
-.btn-2{
-    width: 174px;
-    height: 54px;
-    padding: 12px 32px;
-    font-weight: bold;
-    color: white;
-    background-color: #4E47FF;
-    border-radius: 10px;
-    margin-bottom: 200px;
-}
-.btn-3{
-    width: 229px;
-    height: 54px;
-    padding: 12px 32px;
-    font-weight: bold;
-    color: white;
-    background-color: #4E47FF;
-    border-radius: 10px;
-    margin-bottom: 200px;
+
 }
 
-.session-2 {
-    /* border: 1px solid blue; */
-    display: flex;
-    max-width: 1140px;
-    height: 328px;
-    margin: 0px auto;
-    justify-content: space-between;
-    margin: 40px auto 35px auto;
-}
-nav h3{
-    width: 105px;
-    height: 54px;
-    font-weight: Black;
-    font-size: 36px;
-    color: #4E47FF;
-}
-nav button{
-  width: 132px;
-  height: 54px; 
-  padding: 12px 32px;
-  font-weight: bold; 
-  color: white;
-  background-color: #4E47FF;
-  border-radius: 10px;
-  
-}
-.session-2 h1 {
-    height: 49px;
+header nav h1 {
+    font-size: 40px;
     font-weight: bold;
-    font-size: 42px;
+    color: blue;
 }
 
-.session-2 p {
+button {
+    width: 200px;
+    font-size: 20px;
     height: 60px;
-    font-size: 24px;
-    /* margin-top: 23px; */
+    border: none;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    background-color: blue;
 }
 
-.session-2 button {
-    width: 229px;
-    height: 48px;
-    margin-top: 23px;
+button:hover {
+    background-color: darkgoldenrod;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
 }
 
-img {
-    width: 403px;
+header .hero {
+    width: 1440px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 80px;
+
+}
+
+.action {
+    width: 1140px;
     height: 328px;
-    border-radius: 50px;
+    margin: auto;
+    gap: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.action img {
+    border-radius: 20px;
 }
 
 .users {
@@ -135,7 +106,8 @@ img {
     margin-top: -30px;
     text-align: center;
 }
-.rev {
+
+.main {
     width: 1140px;
     height: 243px;
     display: flex;
@@ -145,13 +117,13 @@ img {
     gap: 50px;
 }
 
-.userr {
+.user {
     display: flex;
     justify-content: center;
     gap: 20px;
 }
 
-.userr .box {
+.user .box {
     justify-content: center;
     width: 300px;
     height: 200px;
@@ -160,7 +132,7 @@ img {
     border-radius: 20px;
 }
 
-.box .pp {
+.box .ava {
     width: 300px;
     gap: 20px;
     display: flex;
@@ -168,12 +140,13 @@ img {
     margin-top: -15px;
 }
 
-.pp img {
+.ava img {
     width: 50px;
     height: 50px;
     border-radius: 45%;
 }
-.focaus {
+
+.section {
     background-color: #f3eeee;
     width: 950px;
     height: 679px;
@@ -186,7 +159,7 @@ img {
     border-radius: 20px;
 }
 
-.contect {
+.contain {
     width: 1000px;
     height: 632px;
     display: flex;
@@ -198,7 +171,7 @@ img {
     justify-content: space-between;
 }
 
-.contect .cont {
+.contain .context {
     display: flex;
     flex-direction: column;
     font-size: 30px;
